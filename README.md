@@ -48,4 +48,4 @@ I used:
 
 •JAVASCRIPT
 
-THE LINK : https://livial22.github.io/Counter/
+LINK HERE: https://livial22.github.io/Counter/
