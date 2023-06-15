@@ -6,7 +6,8 @@ body{
 }
 
 .name{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin-bottom: 50px;
     color: black;
     font-size: xx-large;
@@ -42,11 +43,12 @@ body{
 }
 
 /* tasto reset*/
+
 .reset{
    display: flex;
    justify-content: center;
     opacity: 0.6;
-    }
+}
 
 .container{
     display: flex;
