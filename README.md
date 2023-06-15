@@ -21,6 +21,8 @@ Cosa ho usato:
 
 •	JAVASCRIPT 
 
+QUI IL LINK : https://livial22.github.io/Counter/
+
 -- ENGLISH --
 
 HI! I'm Livia and I'm studying to become a web developer
@@ -45,3 +47,5 @@ I used:
 •CSS
 
 •JAVASCRIPT
+
+LINK HERE: https://livial22.github.io/Counter/
