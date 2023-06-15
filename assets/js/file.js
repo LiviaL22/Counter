@@ -1,5 +1,5 @@
 
-/* funzioni del contatore cliccando i pulsanti + e - */ 
+/* funzioni del contatore cliccando i pulsanti + , - e reset*/ 
 let counter = 0;
 
 function initial(){
@@ -17,6 +17,10 @@ function sub(){
     document.getElementById("result").innerHTML = counter;
 }
 
+function reset(){
+    counter = 0;
+    document.getElementById("result").innerHTML = counter;
+}
 
 /* funzione della tastiera con i tasti + e - */ 
 
@@ -34,3 +38,6 @@ if (id == '-'){
 }
 
 }
+
+/* funzione di reset del tasto reset */
+

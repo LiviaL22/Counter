@@ -55,6 +55,14 @@ body{
     font-size: xx-large;
 }
 
+/* tasto reset*/
+.reset{
+    display: flex;
+    justify-content: center;
+    
+    opacity: 0.6;
+}
+
 /* copyright */
 
 .footer{
