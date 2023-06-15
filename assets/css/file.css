@@ -48,6 +48,11 @@ body{
    display: flex;
    justify-content: center;
     opacity: 0.6;
+    
+}
+
+.border{
+    border-radius: 50% 50% 50% 50%;
 }
 
 .container{
