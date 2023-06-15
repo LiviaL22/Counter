@@ -1,6 +1,6 @@
 Ciao! Sono Livia e sto studiando per diventare sviluppatrice web 
 
-Questo progetto consiste  nello sviluppo di un'applicazione JavaScript che permetta all'utente di aumentare e decrementare il valore
+Questo progetto consiste  nello sviluppo di un'applicazione JavaScript (senza nessun tipo di framwork o jquary) che permetta all'utente di aumentare e decrementare il valore
 del counter.
 
 L’utente appena entra nella pagina visualizzerà il valore del contatore a 0.
@@ -25,7 +25,7 @@ Cosa ho usato:
 
 HI! I'm Livia and I'm studying to become a web developer
 
-This project consists in the development of a JavaScript application that allows the user to increase and decrease the value
+This project consists in the development of a JavaScript (without framework o jquary) application that allows the user to increase and decrease the value
 of the counter.
 
 As soon as the user enters the page, the counter value will be set to 0.
