@@ -2,9 +2,11 @@
 /* funzioni del contatore cliccando i pulsanti + , - e reset*/ 
 let counter = 0;
 
+
 function initial(){
 
     document.getElementById("result").innerHTML = counter;
+   
 }
 
 function add(){
@@ -17,10 +19,16 @@ function sub(){
     document.getElementById("result").innerHTML = counter;
 }
 
+/* tasto reset */
+
 function reset(){
     counter = 0;
+    
     document.getElementById("result").innerHTML = counter;
+    
 }
+
+
 
 /* funzione della tastiera con i tasti + e - */ 
 
