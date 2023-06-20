@@ -2,7 +2,6 @@ body{
     background-image: url(../img/calcoli.jpg);
     background-size: cover ;
     height: 120vh;
-   
 }
 
 .name{
@@ -59,12 +58,17 @@ body{
 .reset{
    display: flex;
    justify-content: center;
-    opacity: 0.6;
+    opacity: 0.8;
     
 }
 
+.reset :hover{
+    cursor:pointer;
+    border: solid blue 3px 
+}
+
 .border{
-    border-radius: 50% 50% 50% 50%;
+    border-radius: 70% 70% 70% 70%;
 }
 
 .container{
