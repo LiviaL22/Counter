@@ -47,5 +47,5 @@ if (id == '-'){
 
 }
 
-/* funzione di reset del tasto reset */
+
 
