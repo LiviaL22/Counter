@@ -1,51 +1,48 @@
 
-/* funzioni del contatore cliccando i pulsanti + , - e reset*/ 
+/* funzioni del contatore cliccando i pulsanti + , - e reset*/
 let counter = 0;
 
 
-function initial(){
+function initial() {
 
     document.getElementById("result").innerHTML = counter;
-   
+
 }
 
-function add(){
+function add() {
     counter++;
     document.getElementById("result").innerHTML = counter;
 }
 
-function sub(){
+function sub() {
     counter--;
     document.getElementById("result").innerHTML = counter;
 }
 
 /* tasto reset */
 
-function reset(){
+function reset() {
     counter = 0;
-    
+
     document.getElementById("result").innerHTML = counter;
-    
+
 }
 
 
 
-/* funzione della tastiera con i tasti + e - */ 
+/* funzione della tastiera con i tasti + e - */
 
-document.onkeyup = keyup ;
+document.onkeyup = keyup;
 
-function keyup(){
+function keyup() {
 
     let id = event.key;
-    if (id == '+'){ 
+    if (id == '+') {
         add();
+    }
+
+    if (id == '-') {
+        sub();
+    }
+
 }
-
-if (id == '-'){ 
-    sub();
-}
-
-}
-
-
-

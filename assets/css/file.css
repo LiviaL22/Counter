@@ -1,10 +1,10 @@
-body{
+body {
     background-image: url(../img/calcolatrici.jpg);
-    background-size: cover ;
+    background-size: cover;
     height: 120vh;
 }
 
-.name{
+.name {
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
@@ -15,40 +15,40 @@ body{
 
 /* + e - */
 
-.symbols{
+.symbols {
 
     width: 50px;
-    
+
 }
 
-.symbols:hover{
-    cursor:pointer;
-    border: solid blue 3px ;
-    
+.symbols:hover {
+    cursor: pointer;
+    border: solid blue 3px;
+
 }
 
 /* contatore */
 
-#result{
+#result {
 
     border: solid silver 1px;
     padding: 5px;
     background-color: white;
     color: blue;
     width: 50px;
-    font-size:xx-large;
+    font-size: xx-large;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
 }
 
-#result2{
+#result2 {
     border: solid silver 1px;
     padding: 5px;
     background-color: white;
     color: blue;
     width: 50px;
-    font-size:xx-large;
+    font-size: xx-large;
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
@@ -56,23 +56,23 @@ body{
 
 /* tasto reset*/
 
-.reset{
-   display: flex;
-   justify-content: center;
+.reset {
+    display: flex;
+    justify-content: center;
     opacity: 0.8;
-    
+
 }
 
-.reset :hover{
-    cursor:pointer;
-    border: solid blue 3px 
+.reset :hover {
+    cursor: pointer;
+    border: solid blue 3px
 }
 
-.border{
+.border {
     border-radius: 70% 70% 70% 70%;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     margin-top: 20px;
@@ -89,8 +89,8 @@ body{
 
 /* copyright */
 
-.footer{
- display: flex;
- justify-content: flex-start;
- color: black;
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    color: black;
 }
