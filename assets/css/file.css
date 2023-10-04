@@ -1,16 +1,7 @@
 body {
-    background-image: url(../img/calcolatrici.jpg);
-    background-size: cover;
-    height: 120vh;
+   background-color: aquamarine;
 }
 
-/*mobile*/
-@media (min-width:600px) {
-    body {
-        background: url(../img/calcolatrici.jpg) no-repeat center center fixed;
-        background-size: cover;
-    }
-}
 
 .name {
     display: flex;
