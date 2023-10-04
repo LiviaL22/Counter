@@ -103,3 +103,8 @@ body {
     justify-content: flex-start;
     color: black;
 }
+
+.tasti{
+    background-color: blue;
+    color: white;
+}
